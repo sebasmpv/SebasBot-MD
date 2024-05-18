@@ -36,7 +36,7 @@ const defaultMenu = {
 🟢 Tiempo activo : %muptime
 %sbot
 ▢ ADD
-• https://instagram.com/fg98_ff
+• https://www.instagram.com/sebas.mvp_official0
 
 • https://fgmods.xyz
 
