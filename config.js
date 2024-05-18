@@ -20,15 +20,15 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Senna┃ᴮᴼᵀ' 
-global.author = '@fg98' 
+global.packname = 'SebasBot' 
+global.author = '@sebas' 
 
 //--info FG
-global.botName = 'Senna'
-global.fgig = 'https://instagram.com/fg98_ff' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.botName = 'sebas'
+global.fgig = 'https://www.instagram.com/sebas.mvp_official0' 
+global.fgsc = 'https://github.com/sebasmpv/SebasBot-MD' 
+global.fgyt = 'https://youtube.com/@sebastian_official0'
+global.fgpyp = 'https://www.paypal.me/sebastian720459'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
 //--- Grupos WA
