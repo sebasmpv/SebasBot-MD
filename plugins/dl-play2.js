@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   m.react('🎧') 
   
   let play = `
-	≡ *FG MUSIC*
+	  *𝙎𝙚𝙗𝙖𝙨 𝙈𝙪𝙨𝙞𝙘*
 ┌──────────────
 ▢ 📌 *${mssg.title}:* ${vid.title}
 ▢ 📆 *${mssg.aploud}:* ${vid.ago}
@@ -41,10 +41,10 @@ try {
   let { title, dl_url, quality, size, sizeB } = yt
   let isLimit = limit * 1024 < sizeB 
 
-     await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `≡  *FG YTDL*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Descarga Completada' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
+     await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `≡  *FG YTDL*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
      
 	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
- ≡  *FG YTDL*
+  *𝙎𝙚𝙗𝙖𝙨 𝙔𝙏𝘿𝙊𝘾*
   
 ▢ *📌Título* : ${title}
 ▢ *🎞️Calidad* : ${quality}
@@ -58,9 +58,9 @@ try {
   let { title, dl_url, quality, size, sizeB} = yt
   let isLimit = limit * 1024 < sizeB 
 
-     await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `≡  *FG YTDL*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Descarga Completada' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
+     await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `≡  *FG YTDL*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
 	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /2$/.test(command)), `
- ≡  *FG YTDL 2*
+ *𝙎𝙚𝙗𝙖𝙨 𝙔𝙏𝘿𝙊𝘾*
   
 *📌${mssg.title}* : ${title}
 *🎞️${mssg.quality}* : ${quality}
