@@ -29,7 +29,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *𝙎𝙚𝙗𝙖𝙨 𝘽𝙤𝙩* ━━━━━ ◈
  
 👋🏻 Hola! *%name*
 👥 Usuarios : %totalreg
@@ -37,8 +37,6 @@ const defaultMenu = {
 %sbot
 ▢ ADD
 • https://www.instagram.com/sebas.mvp_official0
-
-• https://fgmods.xyz
 
 ────────────
 %readmore
