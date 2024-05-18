@@ -115,7 +115,7 @@ export async function before(m, { conn }) {
         mediaUrl: fgyt,
         mediaType: 'VIDEO',
         description: 'Suscribete: ' + fgyt,
-        title: 'FG YouTube',
+        title: 'Sebas YouTube',
         body: 'aprende a crear tus propios bots',
         thumbnailUrl: pp,
         sourceUrl: fgyt
