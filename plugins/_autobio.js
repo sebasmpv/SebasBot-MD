@@ -15,7 +15,7 @@ let _muptime
     let muptime = clockString(_muptime)
 		let bio = `\n🟢 Tiempo Activo ${muptime}\n\n┃ 💎 /support`
 
-*/
+/*
 		await this.updateProfileStatus(bio).catch(_ => _)
 		setting.status = new Date() * 1
 
