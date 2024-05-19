@@ -52,7 +52,7 @@ export async function before(m, { conn }) {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: id_canal,
+      newsletterJid: fgcanal,
       serverMessageId: 100,
       newsletterName: nam,
     }
@@ -64,7 +64,7 @@ export async function before(m, { conn }) {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: id_canal,
+      newsletterJid: fgcanal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -85,7 +85,7 @@ export async function before(m, { conn }) {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: id_canal,
+      newsletterJid: fgcanal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -106,7 +106,7 @@ export async function before(m, { conn }) {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: id_canal,
+      newsletterJid: fgcanal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
