@@ -1,14 +1,13 @@
-
 import fetch from 'node-fetch';
 export async function before(m, { conn }) {
-   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/22a15b26f4e194a8b3718.jpg');
+   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/1ZxrXKJ/avatar-contact.jpg');
 
   let nam = "𝙎𝙚𝙗𝙖𝙨𝘽𝙤𝙩"
-  
+
   // Respuesta con enlace de WhatsApp
   global.rpl = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: id_canal,
       serverMessageId: 100,
@@ -25,13 +24,13 @@ export async function before(m, { conn }) {
       }
     }
   };
-  
+
   // Respuesta con enlace de Canal de WhatsApp
   global.rcanal = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: fgcanal,
+      newsletterJid: id_canal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -40,19 +39,19 @@ export async function before(m, { conn }) {
         mediaType: 'VIDEO',
         description: 'canal del grupo',
         title: packname,
-        body: 'Canal de SebasBot',
+        body: '𝘾𝙖𝙣𝙖𝙡 𝘿𝙚 𝙎𝙚𝙗𝙖𝙨𝘽𝙤𝙩',
         thumbnailUrl: pp,
         sourceUrl: fgcanal
       }
     }
   }
-  
+
     // Forwarded
   global.fwc = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: fgcanal,
+      newsletterJid: id_canal,
       serverMessageId: 100,
       newsletterName: nam,
     }
@@ -62,9 +61,9 @@ export async function before(m, { conn }) {
   // Respuesta con enlace de PayPal
   global.rpyp = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: fgcanal,
+      newsletterJid: id_canal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -83,9 +82,9 @@ export async function before(m, { conn }) {
   // Respuesta con enlace de Instagram
   global.rpig = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: fgcanal,
+      newsletterJid: id_canal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -104,9 +103,9 @@ export async function before(m, { conn }) {
   // Respuesta con enlace de YouTube
   global.rpyt = {
     contextInfo: {
-    	isForwarded: true,
+            isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: fgcanal,
+      newsletterJid: id_canal,
       serverMessageId: 100,
       newsletterName: nam,
     }, 
@@ -122,7 +121,7 @@ export async function before(m, { conn }) {
       }
     }
   }
-  
-  
-  
+
+
+
 }
